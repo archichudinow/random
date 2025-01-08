@@ -1,0 +1,12 @@
+{
+    "name": "MyCodespace",
+    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+    "postCreateCommand": "curl \"https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip\" -o \"awscliv2.zip\" && unzip awscliv2.zip && sudo ./aws/install",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "extensions": [
+      "ms-azuretools.vscode-docker"
+    ]
+}
+  
