@@ -23,10 +23,5 @@
         "amazonwebservices.aws-toolkit-vscode"
       ]
     }
-  },
-  "settings": {
-    "python.pythonPath": "/usr/bin/python3"
-  },
-  "forwardPorts": [],
-  "remoteUser": "vscode"
+  }
 }
